@@ -1,0 +1,156 @@
+New fatal context 0
+reg: magic(ok) @dynamic(807997a0) @static(806c)
+id |  size | blocks nb | free cnt | min free cnt | rejects | bumps
+ 0 |    40 |        20 |       18 |           14 |       0 |     0
+ 1 |  1440 |        10 |       10 |            5 |       0 |     0
+Pool 0
+  0 T: s=40 o=33 m=6000009
+  1 T: s=36 o=33 m=600002f
+Pool 1
+reg: magic(ok) @dynamic(df620) @static(c0064f9c)
+id |  size | blocks nb | free cnt | min free cnt | rejects | bumps
+ 0 |    68 |        52 |       44 |           31 |       0 |     0
+ 1 |   260 |       100 |      100 |           93 |       0 |     0
+ 2 |   452 |        20 |       20 |           13 |       0 |     0
+ 3 |  2052 |        25 |       25 |           23 |       0 |     0
+ 4 |  9540 |        19 |       19 |           15 |       0 |     0
+ 5 | 16388 |         2 |        2 |            2 |       0 |     0
+Pool 0
+  0 T: s=36 o=1 m=26000043
+  1 T: s=36 o=19 m=25000025
+  2 T: s=36 o=1 m=2100005f
+  3 T: s=36 o=1 m=2b00001b
+  4 T: s=36 o=1 m=26000036
+  5 T: s=36 o=1 m=2600004a
+  6 T: s=36 o=1 m=2b00001c
+  7 T: s=36 o=1 m=2100005a
+Pool 1
+Pool 2
+Pool 3
+Pool 4
+Pool 5
+reg: magic(ok) @dynamic(807997e0) @static(805c)
+id |  size | blocks nb | free cnt | min free cnt | rejects | bumps
+ 0 |  1280 |        10 |        0 |            0 |       0 |     0
+ 1 |  8192 |         1 |        1 |            0 |       0 |     0
+Pool 0
+  0: s=1280 o=3 l=3541
+  1: s=1280 o=3 l=3541
+  2: s=1280 o=3 l=3541
+  3: s=1280 o=3 l=3541
+  4: s=1280 o=3 l=3541
+  5: s=1280 o=3 l=3541
+  6: s=1280 o=3 l=3541
+  7: s=1280 o=3 l=3541
+  8: s=1280 o=3 l=3541
+  9: s=1280 o=3 l=995
+Pool 1
+reg: magic(ok) @dynamic(5cda0) @static(c0064f6c)
+id |  size | blocks nb | free cnt | min free cnt | rejects | bumps
+ 0 |    64 |       750 |      749 |          743 |       0 |     0
+ 1 |   160 |       350 |      347 |          340 |       0 |     0
+ 2 |   256 |       100 |       96 |           93 |       0 |     0
+ 3 |   512 |        30 |       28 |           27 |       0 |     0
+ 4 |  2048 |        40 |       37 |           34 |       0 |     0
+ 5 | 14080 |        16 |       16 |           11 |       0 |     0
+Pool 0
+  0: s=64 o=17 l=1773
+Pool 1
+  0: s=160 o=17 l=241
+  1: s=160 o=17 l=241
+  2: s=160 o=17 l=798
+Pool 2
+  0: s=256 o=17 l=476
+  1: s=256 o=17 l=476
+  2: s=256 o=17 l=476
+  3: s=224 o=17 l=1738
+Pool 3
+  0: s=512 o=17 l=208
+  1: s=512 o=17 l=208
+Pool 4
+  0: s=1632 o=17 l=2976
+  1: s=640 o=17 l=1710
+  2: s=640 o=17 l=1724
+Pool 5
+Fatal error
+File: rrc_search_fsm.cc@3584
+'Cell Select failure: the UE did not sync to the requested cell (pci=0/39)'
+ 1) 1C10646C
+ 2) 1C1F4394
+ 3) 1C32F17C
+ 4) 1C2080EC
+ 5) 1C208DBE
+ 6) 1C32F17C
+ 7) 1C204088
+ 8) 1C2041C4
+ 9) 1C34470A
+10) 6000002A
+11) 60000008
+
+   .-.
+  (0.0)
+'=.|m|.='
+.='`"``=.
+Fatal error
+File: rrc_search_fsm.cc@3584
+'Cell Select failure: the UE did not sync to the requested cell (pci=0/39)'
+ 1) 1C10646C
+ 2) 1C1F4394
+ 3) 1C32F17C
+ 4) 1C2080EC
+ 5) 1C208DBE
+ 6) 1C32F17C
+ 7) 1C204088
+ 8) 1C2041C4
+ 9) 1C34470A
+10) 6000002A
+11) 60000008
+5.5.1.0 [51084] by robot-soft at 2020-10-22 20:43:54
+Uptime: 554s
+Task: SQN_RRC(0031A544)
+crashdump: Crashdump started
+fs: Mounting /flash0...done
+fs: Overlay filesystem mounted on /fs
+crashdump: Dumping crash version
+crashdump: Dumping version string
+crashdump: Dumping fatal string
+crashdump: Dumping MCPU fatal context 0
+crashdump: Dumping MCPU callstack
+crashdump: Callstack:
+crashdump:  1) 0x1C10646C
+crashdump:  2) 0x1C1F4394
+crashdump:  3) 0x1C32F17C
+crashdump:  4) 0x1C2080EC
+crashdump:  5) 0x1C208DBE
+crashdump:  6) 0x1C32F17C
+crashdump:  7) 0x1C204088
+crashdump:  8) 0x1C2041C4
+crashdump:  9) 0x1C34470A
+crashdump: 10) 0x6000002A
+crashdump: 11) 0x60000008
+crashdump: Dumping MCPU stack
+crashdump: Dumping around MCPU PC
+crashdump: Dumping around MCPU LP
+crashdump: Dumping threads
+crashdump: Dumping threads stacks
+crashdump: Dumping memory stats
+crashdump: Dumping MPU configuration
+crashdump: Dumping QKI pools
+crashdump: Dumped 0xc30b qki
+crashdump: Dumping ZSP0 debug
+crashdump: Dumping ZSP1 debug
+crashdump: Dumping LPU debug
+crashdump: Waiting LCPU dump
+crashdump: Dumping LCPU callstack
+crashdump: Callstack:
+crashdump:  1) 0x007A0B42
+crashdump:  2) 0x007A0BB4
+crashdump:  3) 0x007C71E0
+crashdump:  4) 0x007F0778
+crashdump:  5) 0x00AF7B08
+crashdump: Dumping around LCPU PC
+crashdump: Dumping around LCPU LP
+crashdump: Dumping LCPU fatal context
+crashdump: Dumping LCPU stack
+crashdump: Dumping events
+crashdump: Reset
